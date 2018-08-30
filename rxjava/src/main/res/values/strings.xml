@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">rxjava</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="title_activity_recycler_view">RecyclerViewActivity</string>
+    <string name="title_activity_first">First Activity</string>
+    <string name="title_activity_second">Second Activity</string>
+    <string name="title_activity_third">Third Activity</string>
+    <string name="title_activity_fourth">Fourth Activity</string>
+    <string name="task_affinity">com.phicomm.task</string>
+    <string name="task_affinity_origin">com.phicomm.rxjava</string>
+</resources>

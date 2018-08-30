@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.phicomm.rxjava">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".listview.ListViewActivity"
+            android:label="@string/title_activity_list_view" />
+        <activity
+            android:name=".recyclerview.RecyclerViewActivity"
+            android:label="@string/title_activity_recycler_view" />
+        <activity android:name=".rxjava.RxjavaActivity" />
+
+
+        <activity
+            android:name=".launchmode.FirstActivity"
+            android:exported="true"
+            android:label="@string/title_activity_first"/>
+        <activity
+            android:name=".launchmode.SecondActivity"
+            android:label="@string/title_activity_second"/>
+        <activity
+            android:name=".launchmode.ThirdActivity"
+            android:label="@string/title_activity_third"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".launchmode.FourthActivity"
+            android:label="@string/title_activity_fourth"
+            android:launchMode="singleTask" />
+    </application>
+
+</manifest>
